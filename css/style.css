@@ -1700,6 +1700,10 @@ header.header-mobile.header-center #logo-center{
 /* ================================================== */
 
 section {
+  padding: 100px 0 100px 0;
+}
+
+#section-hero {
   padding: 140px 0 140px 0;
 }
 
