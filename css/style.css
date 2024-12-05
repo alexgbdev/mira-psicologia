@@ -3556,6 +3556,10 @@ footer:not(.footer-light) #form_subscribe.form-dark input[type=text] {
   border-bottom: solid 1px #ff0000 !important;
 }
 
+#contact_form_img {
+
+}
+
 
 /* ================================================== */
 
@@ -12761,7 +12765,7 @@ i.bg-color-secondary {
 .de-images-stack .di-3{
     width: 40%;
     position: absolute;
-    z-index: 8;
+    z-index: 11;
     left: 0;
     bottom:-20%;
 }
