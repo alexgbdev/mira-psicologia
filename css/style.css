@@ -3558,7 +3558,6 @@ footer:not(.footer-light) #form_subscribe.form-dark input[type=text] {
 }
 
 #contact_form_img {
-
 }
 
 
@@ -13499,7 +13498,10 @@ i.bg-color-secondary {
 .z-6{ z-index:6 }
 .z-1000 { z-index: 1000;}
 
-.auto-height{height: 100%;padding-top: 100%;}
+.auto-height{
+  height: 100%;
+  padding-top: 100%;
+}
 
 
 .rounded-1{
@@ -21975,7 +21977,6 @@ border-radius:20px 0 0 20px;
     width:100%;
   }
 
-
   .menu_side_area .btn-main{
     display: none;
   }
@@ -22025,8 +22026,6 @@ border-radius:20px 0 0 20px;
     margin-bottom: 0px;
   }
 
-
-
   .de__cart-item{
     display: block !important;
   }
@@ -22034,7 +22033,6 @@ border-radius:20px 0 0 20px;
   .de__cart-item .de-number{
     margin-left: 100px;
   }
-
 }
 
 @media only screen and (max-width: 360px) {
