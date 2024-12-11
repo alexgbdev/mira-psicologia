@@ -2457,6 +2457,16 @@ footer:not(.footer-light) #form_subscribe.form-dark input[type=text] {
 }
 
 #contact_form_img {
+  background-image: url('../images/milena-varges-psicologa-2.JPG');
+  background-position-x: 70%;
+  background-position-y: 0%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
 
 
@@ -8457,6 +8467,7 @@ img {
   .col-md-3-5 { width: 60%; }
   .col-md-4-5 { width: 80%; }
   .col-md-5-5 { width: 100%; }
+  .mobile-only { display: none;}
 }
 
 @media (min-width: 1200px) {
@@ -8478,7 +8489,6 @@ img {
     max-width: 1200px;
   }
 }
-
 
 @media (min-width: 1400px) {
 
@@ -8509,26 +8519,20 @@ img {
   .container-sm {
     min-width: 95%;
   }
+
+  #contact_form_img {
+    background-position-x: 75%;
+    background-position-y: 30%;
+  }
 }
 
 /* --------------------------------------------------
     design for 768px
     /* ================================================== */
 
-@media (min-width: 768px) and (max-width: 979px) {
-  .slider_text {
-    padding-top: 0px;
-  }
-}
-
-@media only screen and (max-width: 1090px) {
-  #quick_search {
-    width: 200px;
-  }
-
-  #quick_search {
-    position: absolute;
-    top: 30px;
+@media only screen and (max-width: 1180px) {
+  .p-30 {
+    padding: 30px 5px;
   }
 }
 
@@ -9482,6 +9486,27 @@ img {
     margin-top: 58px !important;
   }
 
+  .p-30 {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 991px) {
+  #contact_form_img {
+    background-position-x: 70%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .slider_text {
+    padding-top: 0px;
+  }
 }
 
 /* --------------------------------------------------
@@ -9748,26 +9773,43 @@ img {
 }
 
 /* --------------------------------------------------
-    design for 480px
+    design for 575px
     /* -------------------------------------------------- */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 575px) and (max-width: 767px) {
   .container {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .feature-box-image,
-  .pricing-box {
-    margin-bottom: 30px;
+  .p-30 {
+    padding: 30px 3px;
   }
 
-  .timeline-panel {
-    margin-bottom: 30px;
+  #contact_form_img {
+    background-position-x: 70%;
+    background-position-y: 30%;
+    height: 530px;
+  }
+}
+
+/* --------------------------------------------------
+    design for 480px
+    /* -------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
-  .timeline-pic {
-    height: 300px;
+  .p-30 {
+    padding: 30px;
+  }
+
+  #contact_form_img {
+    background-position-x: 50%;
+    height: 600px;
   }
 }
 
@@ -9837,11 +9879,30 @@ img {
   .de__cart-item .de-number{
     margin-left: 100px;
   }
+
+  #contact_form_img {
+    background-position-x: 50%;
+    background-position-y: 30%;
+    height: 480px;
+  }
+
+  .p-30 {
+    padding: 30px;
+  }
 }
 
 @media only screen and (max-width: 360px) {
   #topbar {
     display: none;
+  }
+
+  #contact_form_img {
+    background-position-y: 0%;
+    height: 420px;
+  }
+
+  .p-30 {
+    padding: 30px 3px;
   }
 }
 
