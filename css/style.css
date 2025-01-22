@@ -1649,6 +1649,10 @@ footer a {
   text-decoration: none !important;
 }
 
+footer .social-icons i {
+  padding: 7px 5px 10px;
+}
+
 .de-navbar-left footer {
   padding: 70px 70px 0 70px;
 }
@@ -2704,7 +2708,7 @@ a.btn-line,
   font-weight: 600;
   text-decoration: none;
   padding: 6px 25px 5px 25px;
-  font-size: 14px;
+  font-size: 18px;
   border: none;
   border-radius:30px;
   -moz-border-radius:30px;
@@ -2950,6 +2954,9 @@ a.btn-lg{
   border: solid 5px rgba(255, 255, 255, 1);
 }
 
+#cta {
+  background: rgb(255, 102, 0);
+}
 
 /* divider */
 
@@ -3929,7 +3936,7 @@ span.teaser {
   width: 36px;
   height: 36px;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 3px 0 3px;
   border-radius:30px;
   -moz-border-radius:30px;
@@ -3976,7 +3983,7 @@ span.teaser {
 }
 
 #topbar .social-icons i{
-  font-size: 16px;
+  font-size: 24px;
   background: none;
   margin-bottom: 0;
   margin-right: 1px;
@@ -4640,6 +4647,7 @@ i.btn-action-hide,
 .carousel-item:hover .pf_text .title .type,
 .owl-slider-nav .next,
 .owl-slider-nav .prev,
+#whatsapp-fab,
 #back-to-top.show,
 #back-to-top.hide,
 .social-icons-sm i,
@@ -7353,8 +7361,28 @@ i.btn-action-hide {
   visibility: hidden;
 }
 
+#whatsapp-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1020;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  padding-top: 3px;
+  text-decoration: none;
+  outline: none;
+  border-radius:6px;
+}
+
+#whatsapp-fab:hover {
+  transform: scale(1.1);
+}
+
 #back-to-top {
-  background: #ffffff;
+  background: #7c7c7c;
   position: fixed;
   bottom: -40px;
   right: 20px;
@@ -7363,7 +7391,7 @@ i.btn-action-hide {
   height: 40px;
   text-align: center;
   line-height: 30px;
-  cursor: poInter;
+  cursor: pointer;
   padding-top: 3px;
   border: 0;
   text-decoration: none;
@@ -7380,7 +7408,7 @@ i.btn-action-hide {
 }
 
 #back-to-top.show {
-  bottom: 20px;
+  bottom: 90px;
   opacity: 1;
 }
 
@@ -8945,8 +8973,18 @@ img {
     border: none;
   }
 
-  #back-to-top {
-    display: none;
+  #whatsapp-fab {
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+  }
+
+  #back-to-top.show {
+    bottom: 90px;
+  }
+
+  #back-to-top.hide {
+    bottom: -45px;
   }
 
   header.header-mobile {
